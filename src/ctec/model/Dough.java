@@ -11,10 +11,10 @@ import java.util.ArrayList;
  */
 public class Dough extends Pretzel 
 {
-	public Pretzel()
+	public Dough()
 	{
 		super();
-		this.setIngredientsList(pretzelIngredients());
+		this.setIngredients(pretzelIngredients());
 	}
 	
 	private ArrayList<String> pretzelIngredients()
