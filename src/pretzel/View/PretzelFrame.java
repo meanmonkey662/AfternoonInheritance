@@ -1,7 +1,6 @@
 package pretzel.View;
 
 import javax.swing.JFrame;
-
 import pretzel.Controller.PretzelController;
 
 public class PretzelFrame extends JFrame

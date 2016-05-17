@@ -1,4 +1,4 @@
-package ctec.model;
+package pretzel.Model;
 
 import java.util.ArrayList;
 

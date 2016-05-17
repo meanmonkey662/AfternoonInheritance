@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ctec.model;
+package pretzel.Model;
 
 /**
  * @author kkoc6943

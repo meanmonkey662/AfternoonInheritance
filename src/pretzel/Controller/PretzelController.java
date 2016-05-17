@@ -1,10 +1,15 @@
-package Pretzel.Controller;
+package pretzel.Controller;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 import javax.swing.*;
 
-import Pretzel.Controller.PretzelController;
+import pretzel.Model.Bread;
+import pretzel.Model.Dough;
+import pretzel.View.PretzelFrame;
 
-public class PretzelPanel extends JPanel
+public class PretzelController
 {
 
 	private ArrayList<Random>RandomList;
@@ -34,7 +39,10 @@ public void insertionSort()
 	for(int outerLoop = 1; outerLoop < Random.size(); outerLoop++)
 		{
 			int innerLoop = outerLoop;
-			while(inner)
+			while(innerLoop == 1)
+			{
+				
+			}
 		}
 }
 
@@ -71,8 +79,8 @@ public void insertionSort()
 
 private void setupRandomList()
 	{
-		RandomList.add(new PBJ());
-		RandomList.add(new Ham());
+		RandomList.add(new Dough());
+		RandomList.add(new Bread());
 	}
 
 public String showInterfaceStuff()
